@@ -1,0 +1,54 @@
+body {
+    background-color: seagreen;
+}
+header { 
+    position: relative;
+    display: inline-block
+}
+h1 {
+    color: black;
+}
+#loggedOutView {
+    display: block;
+    padding: 10px;
+}
+.form-popup {
+  display: none;
+  position: fixed;
+ top: 30%;
+  right: 50%;
+  border: 3px solid gray;
+  z-index: 9;
+}
+.form-container {
+  max-width: 300px;
+  padding: 15px;
+  background-color: lightskyblue;
+}
+.margin {
+    margin: 5px;
+}
+button {
+    padding: 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+#message {
+    font-size: 1.2rem;
+    margin: 10px;
+}
+#loggedInView {
+    display: none;
+    font-size: 1.2rem;
+    margin: 10px;
+    color: lightskyblue;
+}
+.disclaimer {
+    position: fixed;
+    width: 96%;
+    bottom: 0px;
+    font-size: 1.2rem;
+    padding: 15PX;
+    background-color: lightskyblue;
+    color: black;
+}

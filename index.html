@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to this basic login function!</h1>
+    </header>
+
+    <div id="loggedOutView">
+        <input type="text" placeholder="Enter Username" id="usernameInput">
+        <input type="text" placeholder="Enter Password" id="passwordInput"> <br> <br>
+        <button id="logInBtn">Log in</button>
+        <button id="createAccForm">Create Account</button>
+    </div>
+   
+<div class="form-popup" id="accForm">
+  <div class="form-container">
+    <h1>Create Account</h1>
+    <input class="margin" type="text" id="userNameC" placeholder="Enter Username">
+    <input class="margin" type="text" id="passWordC" placeholder="Enter Password">
+    <input class="margin" type="text" id="passwordConfirmC" placeholder="Confirm Password"> <br>
+    <button class="margin" id="createAccBtn">Create Account</button>
+    <button class="margin" id="closeBtn">Close</button>
+  </div>
+</div>
+
+<div id="loggedInView">
+    <h3>Salamalekum, you are now logged in!</h3>
+    <p>Welcome to this simple website, enjoy your time here!</p>
+    <div id="logOut"></div>
+</div>
+
+<p id="message"></p>
+
+<footer>
+    <p class="disclaimer">Copyright © 2022, This website is an experiment and therefore you should not use your actual passwords!</p>
+</footer>
+</body>
+</html>
